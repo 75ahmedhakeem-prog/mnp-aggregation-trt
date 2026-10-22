@@ -1,4 +1,5 @@
 # mnp-aggregation-trt
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23571338.svg)](https://doi.org/10.5281/zenodo.23571338)
 
 Code and data for the manuscript **"Magnetic nanoparticle aggregation in tumour tissue cancels most of the planned thermoradiotherapy benefit: a particle-to-outcome model"** (A.M. Abdel Hakeem, S.A. Ahmed).
 
