@@ -1,0 +1,6 @@
+{"clinical_particle_model": {"d_nm": 12, "sigma_ln": 0.15, "K_J_m3": 14000, "Ms_A_m": 3.75e5, "calibrated_to": "12.5 W/gFe at 10 kA/m, 100 kHz (planning value, Johannsen 2005: 0.2 mL fluid/mL -> 300 W/kg)", "model_dispersed_10kA": 12.2},
+ "aggregation_factor_vs_H": {"H_kA_m": [4.5, 7, 10, 15, 24], "phi0.1": [0.52, 0.58, 0.75, 1.21, 2.66], "phi0.2": [0.17, 0.27, 0.36, 0.76, 1.84], "phi0.3": [0.0, 0.02, 0.0, 0.16, 0.87]},
+ "prostate_model": "35 mL gland, 24 depots (14.9 mL, 100.7 mg Fe/mL), homogeneous k = 0.5 W/m/K, perfusion 1-8e-3 1/s, steady Pennes by FFT Green's function, 8 random layouts",
+ "prostate_T50_planned_fluid": {"w_1e-3": 47.1, "w_2e-3": 43.7, "w_3e-3": 42.1, "w_4e-3": 41.1, "w_6e-3": 40.0, "w_8e-3": 39.4},
+ "measured_Johannsen2007": {"T20": 41.1, "T50": 40.8, "T90": 40.1},
+ "Johannsen2005_session_drop": {"slope_DT6_vs_DT1": 0.616, "note": "same field 4-5 kA/m, 4 probes, max and min"}}

@@ -1,0 +1,6 @@
+{"model": "two-state Neel kinetic Monte Carlo, exact Stoner-Wohlfarth barriers and minima (moment tilt), dipolar interactions, exponential integrator with first-order hold, f0 = 1e9 s^-1, T = 310 K",
+ "verification_LRT": "agreement within statistical error for d = 13-16 nm (sigma*h < 0.3); deviations for blocked particles where LRT is invalid",
+ "benchmark_OrtegaJulia2023": "22 nm, 300 kHz, 24 kA/m: chain/dispersed 0.29, compact (phi 0.4)/dispersed 0.07 -> same ordering (chains heat more than compact clusters), stronger reduction than their 1/2 and 1/5 (different reference and parameters)",
+ "calibration_GA2025_soft": {"K_J_m3": 26000, "d_nm": 12.0, "sigma_ln": 0.12, "phi_soft": 0.10, "model_W_g": [58.8, 231.9], "exp_W_g": [58, 243]},
+ "validation_GA2025_dense": {"phi_dense_fitted_on_100kHz_SAR": 0.172, "model_decrease_pct": {"100kHz": [29.2, 25.3, 15.4], "300kHz": [10.1, 10.1, 3.6]}, "exp_decrease_pct": {"100kHz": [29, 28, 24], "300kHz": [19, 20, 9]}, "order": ["SAR", "Mr", "Hc"]},
+ "validation_DiCorato2014": {"params": "d 10 nm, K 2.6e4, Ms 2.8e5 (their LRT fit), 700 kHz, 20 kA/m, no tuning", "model_dispersed": 222, "exp_solution": 230, "model_phi_0.4_0.5": [107, 104], "exp_in_cells": 110}}
