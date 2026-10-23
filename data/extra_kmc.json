@@ -1,0 +1,344 @@
+[
+ {
+  "tag": "phi_curve",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4770.0,
+  "phi": 0.25,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": -0.14357586657290253,
+  "se_Fe": 0.498226679033256
+ },
+ {
+  "tag": "phi_curve",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4770.0,
+  "phi": 0.3,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": -0.16359674733075658,
+  "se_Fe": 0.35999627406342155
+ },
+ {
+  "tag": "phi_curve",
+  "particle": "robust",
+  "f": 85000.0,
+  "H": 5611.764705882353,
+  "phi": 0.05,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 4.078242252527306,
+  "se_Fe": 0.44480454461544083
+ },
+ {
+  "tag": "phi_curve",
+  "particle": "robust",
+  "f": 85000.0,
+  "H": 5611.764705882353,
+  "phi": 0.15,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 2.591149934096672,
+  "se_Fe": 0.3268901807645308
+ },
+ {
+  "tag": "phi_curve",
+  "particle": "robust",
+  "f": 85000.0,
+  "H": 5611.764705882353,
+  "phi": 0.25,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 1.7766663919448034,
+  "se_Fe": 0.27673337340292065
+ },
+ {
+  "tag": "phi_curve",
+  "particle": "robust",
+  "f": 85000.0,
+  "H": 5611.764705882353,
+  "phi": 0.3,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 1.8940801653035149,
+  "se_Fe": 0.41993549256570917
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4000.0,
+  "phi": null,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 2.7339113586011083,
+  "se_Fe": 0.48831454002758157
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4000.0,
+  "phi": 0.05,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 2.7130280075563205,
+  "se_Fe": 0.4111892358949839
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4000.0,
+  "phi": 0.1,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 1.6205539095513124,
+  "se_Fe": 0.4112582370067955
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4000.0,
+  "phi": 0.15,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 1.058761697166942,
+  "se_Fe": 0.30645046760010053
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4000.0,
+  "phi": 0.2,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 0.35982031020353006,
+  "se_Fe": 0.29051097351145594
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 5000.0,
+  "phi": null,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 3.9743057586318518,
+  "se_Fe": 0.6964250334483432
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 5000.0,
+  "phi": 0.05,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 3.852874784489223,
+  "se_Fe": 0.5527084681303595
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 5000.0,
+  "phi": 0.1,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 2.5167245374808385,
+  "se_Fe": 0.475144535130366
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 5000.0,
+  "phi": 0.15,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 1.0046414368753622,
+  "se_Fe": 0.4358415008549051
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 5000.0,
+  "phi": 0.2,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 0.8665773445294467,
+  "se_Fe": 0.49060566929633065
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4500.0,
+  "phi": 0.05,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 3.523543226633297,
+  "se_Fe": 0.44694887588241217
+ },
+ {
+  "tag": "clin_H",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4500.0,
+  "phi": 0.15,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 16,
+  "SAR_Fe": 0.8297681450212604,
+  "se_Fe": 0.2382219787580933
+ },
+ {
+  "tag": "conv_ref",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4770.0,
+  "phi": 0.1,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 8,
+  "SAR_Fe": 2.603840765098219,
+  "se_Fe": 0.5033480231632829
+ },
+ {
+  "tag": "conv_ref",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4770.0,
+  "phi": 0.2,
+  "opts": {
+   "cycles": 10
+  },
+  "seeds": 8,
+  "SAR_Fe": 0.537073448396785,
+  "se_Fe": 0.6011124118287655
+ },
+ {
+  "tag": "conv_N120",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4770.0,
+  "phi": 0.1,
+  "opts": {
+   "cycles": 10,
+   "N": 120
+  },
+  "seeds": 8,
+  "SAR_Fe": 2.8172634885540395,
+  "se_Fe": 0.45425264564275863
+ },
+ {
+  "tag": "conv_N120",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4770.0,
+  "phi": 0.2,
+  "opts": {
+   "cycles": 10,
+   "N": 120
+  },
+  "seeds": 8,
+  "SAR_Fe": 0.3596792964079988,
+  "se_Fe": 0.35825216770033796
+ },
+ {
+  "tag": "conv_steps600",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4770.0,
+  "phi": 0.1,
+  "opts": {
+   "cycles": 10,
+   "steps": 600
+  },
+  "seeds": 8,
+  "SAR_Fe": 4.127572135960507,
+  "se_Fe": 0.9404712892482081
+ },
+ {
+  "tag": "conv_steps600",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4770.0,
+  "phi": 0.2,
+  "opts": {
+   "cycles": 10,
+   "steps": 600
+  },
+  "seeds": 8,
+  "SAR_Fe": 0.7155676619049276,
+  "se_Fe": 0.49441491169717683
+ },
+ {
+  "tag": "conv_cycles20",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4770.0,
+  "phi": 0.1,
+  "opts": {
+   "cycles": 20
+  },
+  "seeds": 8,
+  "SAR_Fe": 2.5820577138508547,
+  "se_Fe": 0.5991186678989919
+ },
+ {
+  "tag": "conv_cycles20",
+  "particle": "clinical",
+  "f": 100000.0,
+  "H": 4770.0,
+  "phi": 0.2,
+  "opts": {
+   "cycles": 20
+  },
+  "seeds": 8,
+  "SAR_Fe": 0.40712564340612967,
+  "se_Fe": 0.48031477184022175
+ }
+]

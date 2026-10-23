@@ -1,5 +1,4 @@
 # mnp-aggregation-trt
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23571338.svg)](https://doi.org/10.5281/zenodo.23571338)
 
 Code and data for the manuscript **"Magnetic nanoparticle aggregation in tumour tissue can cancel most of the planned thermoradiotherapy benefit: a particle-to-outcome model"** (A.M. Abdel Hakeem, S.A. Ahmed).
 
@@ -33,6 +32,11 @@ Python ≥ 3.10, `numpy`, `scipy`, `pandas`, `scikit-learn`, `matplotlib`, `pill
 | Nerve-stimulation index | `stim.py` | printout |
 | Stimulation-safe design (85 kHz) | `ml_design_safe.py`, `safe_verify.py` | `data/ml_design_safe.json`, `data/safe_verify.json` |
 | Progressive aggregation, required field, 85 kHz therapy | `step4_extra.py` | `data/step4_extra.json` |
+| Packing fraction from clinical temperatures | `clin_inverse.py` | `data/clin_inverse.json` |
+| Prostate-cell thermal ratio (Heo et al. 2024) | `heo_calib.py` | `data/heo_calib.json` |
+| Gain versus packing fraction, mixed states | `extra_kmc.py`, `gain_phi.py` | `data/extra_kmc.json`, `data/gain_phi.json` |
+| KMC convergence | `extra_kmc.py`, `conv2.py` | `data/extra_kmc.json`, `data/conv2.json` |
+| Transient heating | `transient.py` | `data/transient.json` |
 | Figures | `fig_*.py` | `figures/*.png` |
 
 `data/validation_inventory.csv` lists the experimental and clinical data used for validation, and `data/ga2025_fig6.csv` the digitised aggregate data.
