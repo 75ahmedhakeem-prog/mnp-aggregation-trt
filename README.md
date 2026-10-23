@@ -1,6 +1,6 @@
 # mnp-aggregation-trt
 
-Code and data for the manuscript **"Magnetic nanoparticle aggregation in tumour tissue can cancel most of the planned thermoradiotherapy benefit: a particle-to-outcome model"** (A.M. Abdel Hakeem, S.A. Ahmed).
+Code and data for the manuscript **"Magnetic nanoparticle aggregation cancels most of the planned thermoradiotherapy benefit, and particle design can partly recover it"** (A.M. Abdel Hakeem, S.A. Ahmed).
 
 The framework couples
 1. a two-state Néel kinetic Monte Carlo (KMC) model of dynamic hysteresis with exact Stoner–Wohlfarth barriers and dipolar coupling (`kmc.py`, `sar_cluster.py`),
