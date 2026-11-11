@@ -46,4 +46,4 @@ d.text(0.97, 0.96, f"median {pp['median']:.2f}\n95%: {pp['p2_5']:.2f}–{pp['p97
        transform=d.transAxes, ha="right", va="top", fontsize=14)
 d.text(0.04, 0.96, "(d)", transform=d.transAxes, fontsize=24, fontweight="bold", va="top")
 d.xaxis.set_minor_locator(AutoMinorLocator(2)); d.yaxis.set_minor_locator(AutoMinorLocator(2))
-fig.savefig("../figs/mnp_step5_phi.png"); plt.close(fig); print("ok")
+fig.savefig("../figures/mnp_step5_phi.png"); plt.close(fig); print("ok")
