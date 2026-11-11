@@ -33,7 +33,7 @@ Python ≥ 3.10, `numpy`, `scipy`, `pandas`, `scikit-learn`, `matplotlib`, `pill
 | Stimulation-safe design (85 kHz) | `ml_design_safe.py`, `safe_verify.py` | `data/ml_design_safe.json`, `data/safe_verify.json` |
 | Progressive aggregation, required field, 85 kHz therapy | `step4_extra.py` | `data/step4_extra.json` |
 | Packing fraction from clinical temperatures (least squares) | `clin_inverse.py` | `data/clin_inverse.json` |
-| Bayesian inference of the packing fraction, synthetic-patient test (≈ 6 min on 2 cores) | `clin_bayes.py` | `data/clin_bayes.json`, `data/clin_bayes_bank.npz` |
+| Bayesian inference of the packing fraction, synthetic-patient test (≈ 6 min on 2 cores) | `clin_bayes.py`, `clin_bayes_ranges.py` | `data/clin_bayes.json`, `data/clin_bayes_bank.npz` |
 | Prostate-cell thermal ratio (Heo et al. 2024) | `heo_calib.py` | `data/heo_calib.json` |
 | Gain versus packing fraction, mixed states | `extra_kmc.py`, `gain_phi.py` | `data/extra_kmc.json`, `data/gain_phi.json` |
 | KMC convergence | `extra_kmc.py`, `conv2.py` | `data/extra_kmc.json`, `data/conv2.json` |
