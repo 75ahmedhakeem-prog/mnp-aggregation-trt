@@ -1,0 +1,48 @@
+{
+ "title": "Code and data for: Magnetic nanoparticle aggregation in tumor tissue can cancel most of the planned thermoradiotherapy benefit: a particle-to-outcome model",
+ "upload_type": "software",
+ "version": "v1.3.0",
+ "license": "MIT",
+ "description": "Kinetic Monte Carlo, heat-transfer, thermoradiobiology, surrogate-model (ANN, GBT and smooth baselines), cost and exact-design scripts and data for the manuscript. v1.3.0 adds smooth surrogate baselines (polynomial, spline, RBF, Gaussian process), single-core timing of KMC and surrogates, and exact KMC refinement of surrogate designs.",
+ "creators": [
+  {
+   "name": "Othman, Manal A.",
+   "affiliation": "Medical Education Department, College of Medicine, Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia"
+  },
+  {
+   "name": "Alshihri, Abdulaziz A.",
+   "affiliation": "Department of Radiological Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia"
+  },
+  {
+   "name": "Althbiti, Ashrf",
+   "affiliation": "Department of Information Technology, College of Computers and Information Technology, Taif University, Taif, Saudi Arabia"
+  },
+  {
+   "name": "Alghamdi, Wael Y.",
+   "affiliation": "Department of Computer Science, College of Computers and Information Technology, Taif University, Taif, Saudi Arabia"
+  },
+  {
+   "name": "Alshammari, Sami Aziz",
+   "affiliation": "Department of Information Technology, Faculty of Computing and Information Technology, Northern Border University, Rafha, Saudi Arabia"
+  },
+  {
+   "name": "Alnafisah, Khalid Hamad",
+   "affiliation": "Department of Computer Sciences, Faculty of Computing and Information Technology, Northern Border University, Rafha, Saudi Arabia"
+  },
+  {
+   "name": "Alshammari, Nayef H.",
+   "affiliation": "Department of Computer Science, Faculty of Computers and Information Technology, University of Tabuk, Tabuk, Saudi Arabia"
+  },
+  {
+   "name": "Abdel Hakeem, A.M.",
+   "affiliation": "Physics Department, Faculty of Science, Sohag University, Sohag, Egypt"
+  }
+ ],
+ "keywords": [
+  "magnetic hyperthermia",
+  "nanoparticle aggregation",
+  "kinetic Monte Carlo",
+  "thermoradiotherapy",
+  "surrogate model"
+ ]
+}

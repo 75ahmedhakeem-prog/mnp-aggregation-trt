@@ -1,6 +1,6 @@
 # mnp-aggregation-trt
 
-Code and data for the manuscript **"Magnetic nanoparticle aggregation cancels most of the planned thermoradiotherapy benefit, and particle design can partly recover it"** (A.M. Abdel Hakeem, S.A. Ahmed).
+Code and data for the manuscript **"Magnetic nanoparticle aggregation cancels most of the planned thermoradiotherapy benefit, and particle design can partly recover it"** (M.A. Othman, A.A. Alshihri, A. Althbiti, W.Y. Alghamdi, S.A. Alshammari, K.H. Alnafisah, N.H. Alshammari, A.M. Abdel Hakeem).
 
 The framework couples
 1. a two-state Néel kinetic Monte Carlo (KMC) model of dynamic hysteresis with exact Stoner–Wohlfarth barriers and dipolar coupling (`kmc.py`, `sar_cluster.py`),
@@ -27,6 +27,10 @@ Python ≥ 3.10, `numpy`, `scipy`, `pandas`, `scikit-learn`, `matplotlib`, `pill
 | Surrogate dataset (1200 KMC runs) | `gen_ml.py` | `data/ml_dataset.json` |
 | Surrogate models | `ml_sar.py` | `data/ml_sar.json` |
 | Surrogate design + KMC check | `ml_design.py`, `ml_verify.py`, `ml_verify2.py` | `data/ml_design.json`, `data/ml_verify*.json` |
+| Smooth baselines (polynomial 2–5, splines, RBF, Gaussian process; same split and bands as `ml_sar.py`) | `ml_baselines.py` | `data/ml_baselines.json` |
+| Cost: KMC vs surrogate fit and grid prediction (one core) | `time_all.py` | `data/time_all.json` |
+| Exact KMC refinement of the top-k ANN candidates vs coarse exact search (50 and 85 kHz, ≈ 20 min on 2 cores) | `design_exact.py` | `data/design_exact.json` |
+| Gaussian-process design choice and its KMC check | `design_gp.py` | `data/design_gp.json` |
 | Uncertainty, sensitivity and TCP | `maps_cache.py`, `uq_therapy.py` | `data/uq_therapy.json` (maps cached in `data/maps_cache.npz`, regenerated on first run) |
 | Field scan around the limit | `field_scan.py` | `data/field_scan.json` |
 | Nerve-stimulation index | `stim.py` | printout |
@@ -38,7 +42,7 @@ Python ≥ 3.10, `numpy`, `scipy`, `pandas`, `scikit-learn`, `matplotlib`, `pill
 | Gain versus packing fraction, mixed states | `extra_kmc.py`, `gain_phi.py` | `data/extra_kmc.json`, `data/gain_phi.json` |
 | KMC convergence | `extra_kmc.py`, `conv2.py` | `data/extra_kmc.json`, `data/conv2.json` |
 | Transient heating | `transient.py` | `data/transient.json` |
-| Figures | `fig_*.py` | `figures/*.png` |
+| Figures | `fig_*.py` | `figures/*.png` (`fig_step3c.py` → `mnp_step3_ml.png`, Fig. 6) |
 
 `data/validation_inventory.csv` lists the experimental and clinical data used for validation, and `data/ga2025_fig6.csv` the digitised aggregate data.
 
