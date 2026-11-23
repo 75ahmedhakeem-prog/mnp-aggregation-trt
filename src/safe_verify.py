@@ -3,7 +3,8 @@ import json, itertools
 from multiprocessing import Pool
 import sar_cluster as S
 LIMIT, FE, SIG, F = 4.77e8, 0.724, 0.15, 8.5e4
-PART = {"ann_safe": (10.7, 3.4e4), "robust50": (14.0, 2.6e4), "clinical": (12.0, 1.4e4)}
+_A = json.load(open("../data/ml_design_safe.json"))   # ANN choice of ml_design_safe.py
+PART = {"ann_safe": (_A["d"], _A["K"]), "robust50": (14.0, 2.6e4), "clinical": (12.0, 1.4e4)}
 def job(a):
     n, ph = a; d, K = PART[n]
     m, e = S.sar("dilute" if ph is None else "loose", ph, d, K, LIMIT / F, F, sig=SIG, seeds=16, cycles=10)
