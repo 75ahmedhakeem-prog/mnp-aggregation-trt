@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Code and data for: Magnetic nanoparticle aggregation in tumor tissue can cancel most of the planned thermoradiotherapy benefit: a particle-to-outcome model"
-version: v1.3.0
+version: v1.3.1
 license: MIT
 repository-code: https://github.com/75ahmedhakeem-prog/mnp-aggregation-trt
 authors:
